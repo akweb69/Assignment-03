@@ -40,6 +40,12 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              primary: "#ABEF5F",
+              secondary: "rgba(171, 239, 95, 0.5)",
+              card1: "rgb(231, 193, 211)",
+              card2: "rgb(239, 218, 110)",
+              card3: "rgb(164, 218, 195)",
+              card4: "rgb(119, 170, 234)",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -49,7 +55,143 @@
       };
     </script>
   </head>
-  <body>
-    <h1 class="text-center text-6xl font-bold">ALLAHU AKBAR</h1>
+  <body class="max-w-[1366px] mx-auto font-manrope">
+    <!-- header section  -->
+    <header class="bg-gradient-to-t from-white to-gray-100 px-5">
+      <!-- header content -->
+      <div class="">
+        <!-- navbar content -->
+        <div class="">
+          <div class="navbar">
+            <!-- nav start -->
+            <div class="navbar-start">
+              <a class="text-xl flex">
+                <span
+                  class="mr-1 size-8 flex items-center justify-center bg-primary rounded-[50%]"
+                  ><i
+                    class="fa-solid fa-arrow-right text-lg transform -rotate-45"
+                  ></i
+                ></span>
+                <span class="text-3xl font-extrabold">Rinterio</span></a
+              >
+            </div>
+            <!-- end -->
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <!-- laptop nav link item -->
+                <li class="font-semibold text-lg text-black"><a>Home</a></li>
+                <li class="font-semibold text-lg text-gray-500">
+                  <a>Services</a>
+                </li>
+                <li class="font-semibold text-lg text-gray-500">
+                  <a>Portfolio</a>
+                </li>
+                <li class="font-semibold text-lg text-gray-500">
+                  <a>Blogs</a>
+                </li>
+                <li class="font-semibold text-lg text-gray-500">
+                  <a>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!-- navbar end section -->
+            <div class="navbar-end">
+              <div class="flex items-center gap-4">
+                <!-- nav end icon -->
+                <div
+                  class="size-7 rounded-full bg-white flex justify-center items-center"
+                >
+                  <i
+                    class="fa-solid fa-magnifying-glass text-lg text-gray-700"
+                  ></i>
+                </div>
+                <div
+                  class="size-7 rounded-full bg-white flex justify-center items-center"
+                >
+                  <i
+                    class="fa-solid fa-cart-shopping text-lg text-gray-700"
+                  ></i>
+                </div>
+                <!-- nav end btn -->
+                <div
+                  class="btn bg-primary text-lg font-bold rounded-3xl hidden md:flex hover:bg-orange-300"
+                >
+                  Book Consult<i
+                    class="fa-solid fa-arrow-right bg-black text-white ml-1 p-2 rounded-3xl -rotate-45"
+                  ></i>
+                </div>
+              </div>
+              <!-- sub menu -->
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="lg:hidden">
+                  <div
+                    class="ml-2 size-7 rounded-full bg-white flex justify-center items-center"
+                  >
+                    <i class="fa-solid fa-bars text-lg"></i>
+                  </div>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-secondary rounded-box z-[1] mt-3 w-64 right-0 p-2 shadow"
+                >
+                  <!-- mobile nav link item  -->
+                  <li class="text-center font-semibold py-2 pl-3">
+                    <a class="font-semibold text-2xl">Home</a>
+                  </li>
+                  <li class="text-center font-semibold py-2 pl-3">
+                    <a class="font-semibold text-2xl">Services</a>
+                  </li>
+                  <li class="text-center font-semibold py-2 pl-3">
+                    <a class="font-semibold text-2xl">Portfolio</a>
+                  </li>
+                  <li class="text-center font-semibold py-2 pl-3">
+                    <a class="font-semibold text-2xl">Contact Us</a>
+                  </li>
+                  <li class="text-center font-semibold py-2 pl-3">
+                    <a class="font-semibold text-2xl">Blogs</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end navbar content -->
+        <!-- banner content -->
+        <div class="w-9/12 mx-auto mt-8">
+          <!-- image content -->
+          <div class="w-full md:w-3/4 lg:w-1/2 mx-auto mb-4 lg:mb-0">
+            <img class="w-full mx-auto" src="./assets/banner.png" alt="" />
+          </div>
+          <!-- text-content -->
+          <div class="text-center">
+            <h1
+              class="text-3xl md:text-4xl font-extrabold mb-4 text-center lg:max-w-[70%] mx-auto"
+            >
+              A barn house of this design has a striking appearance
+            </h1>
+
+            <p
+              class="lg:max-w-[70%] mx-auto font-[500] mb-5 text-[rgb(73, 73, 73)]"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <!-- btn -->
+            <div
+              class="w-full md:w-auto btn bg-secondary text-lg font-bold rounded-3xl mb-20 hover:bg-orange-300"
+            >
+              View Details
+              <i
+                class="fa-solid fa-arrow-right bg-primary ml-1 p-2 rounded-3xl -rotate-45"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end header content -->
+    </header>
+    <!-- end header -->
   </body>
 </html>
